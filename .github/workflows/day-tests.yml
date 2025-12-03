@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        day: [day1, day2, day3]
+        day: [1, 2, 3]
     defaults:
       run:
-        working-directory: ${{ matrix.day }}
+        working-directory: "2025/day${{ matrix.day }}"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
