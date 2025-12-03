@@ -1,0 +1,9 @@
+[package]
+name = "advent_of_code"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "day1_part1"
+path = "day1_part1.rs"
+

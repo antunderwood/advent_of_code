@@ -1,0 +1,15 @@
+[package]
+name = "advent_of_code"
+version = "0.1.0"
+edition = "2021"
+AoCData = "0.1"
+AoCResult = "0.1"
+
+
+[[bin]]
+name = "day3_part1"
+path = "day3_part1.rs"
+
+[[bin]]
+name = "day3_part2"
+path = "day3_part2.rs"
