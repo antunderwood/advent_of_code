@@ -1,0 +1,13 @@
+[package]
+name = "advent_of_code_2025_day5"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+indoc = "2"
+
+
+[[bin]]
+name = "day5_parts1_and_2"
+path = "day5_parts1_and_2.rs"
+
